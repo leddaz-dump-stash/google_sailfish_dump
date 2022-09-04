@@ -1,0 +1,6 @@
+/                   ext4     /dev/block/platform/soc/624000.ufshc/by-name/system       flags=display=;slotselect
+/firmware/radio     vfat     /dev/block/platform/soc/624000.ufshc/by-name/modem        flags=display=radio;slotselect
+/data               ext4     /dev/block/platform/soc/624000.ufshc/by-name/userdata     flags=display=data
+none                swap     /dev/block/zram0                                          flags=display=none
+/misc               emmc     /dev/block/platform/soc/624000.ufshc/by-name/misc         flags=display=misc
+auto                vfat     /devices/*/xhci-hcd.0.auto/usb*                           flags=display=auto

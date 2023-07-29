@@ -1,0 +1,14 @@
+# sailfish-user 7.1 NDE63V 3389651 release-keys
+- manufacturer: google
+- platform: msm8996
+- codename: sailfish
+- flavor: sailfish-user
+- release: 7.1
+- id: NDE63V
+- incremental: 3389651
+- tags: release-keys
+- fingerprint: google/sailfish/sailfish:7.1/NDE63V/3389651:user/release-keys
+- is_ab: true
+- brand: google
+- branch: sailfish-user-7.1-NDE63V-3389651-release-keys
+- repo: google_sailfish_dump

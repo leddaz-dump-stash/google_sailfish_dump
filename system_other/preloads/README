@@ -1,0 +1,3 @@
+This directory contains pre-loaded content such as a retail mode demo video, photos and pre-loaded APKs.
+
+Used by marlin.mk/sailfish.mk in vendor/google/products.

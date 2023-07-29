@@ -1,0 +1,14 @@
+# sailfish-user 7.1.1 NOF27D 3757586 release-keys
+- manufacturer: google
+- platform: msm8996
+- codename: sailfish
+- flavor: sailfish-user
+- release: 7.1.1
+- id: NOF27D
+- incremental: 3757586
+- tags: release-keys
+- fingerprint: google/sailfish/sailfish:7.1.1/NOF27D/3757586:user/release-keys
+- is_ab: true
+- brand: google
+- branch: sailfish-user-7.1.1-NOF27D-3757586-release-keys
+- repo: google_sailfish_dump

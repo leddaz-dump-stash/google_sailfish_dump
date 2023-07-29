@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MSDCConfigParams Version="String" xsi:schemaLocation="urn:3gpp:qualcomm:MSDC:ConfigFile MSP_ConfigParams.xsd" xmlns="urn:3gpp:qualcomm:MSDC:ConfigFile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sv="urn:3gpp:metadata:2009:MBMS:schemaVersion" xmlns:r21="urn:qualcomm:MSDC:ConfigFile:ConfigSchemaExtn:r21" xmlns:r24="urn:qualcomm:MSDC:ConfigFile:ConfigSchemaExtn:r24">
+  <Unicast>
+    <HTTPRetryAttempts>5</HTTPRetryAttempts>
+    <HTTPRetryPeriod>PT1M</HTTPRetryPeriod>
+    <HTTPClientTimeout>PT10S</HTTPClientTimeout>
+    <r24:UnicastExtension/>
+  </Unicast>
+  <BearerControl>
+    <FileDeliveryTMGIActivationRetryTimeOut>PT1S</FileDeliveryTMGIActivationRetryTimeOut>
+    <FileDeliveryOutOfServiceTMGIActivationRetryTimeOut>PT5S</FileDeliveryOutOfServiceTMGIActivationRetryTimeOut>
+    <r24:BearerControlExtension/>
+  </BearerControl>
+  <Streaming>
+    <SegmentProcDelayedBase>PT0.4S</SegmentProcDelayedBase>
+    <SegmentProcDelayedFactor>1.0</SegmentProcDelayedFactor>
+    <TimeShiftedBufferDepth>PT90S</TimeShiftedBufferDepth>
+    <ReceptionGap>1</ReceptionGap>
+    <DelayJitter>PT2.5S</DelayJitter>
+    <r24:StreamingExtension/>
+  </Streaming>
+  <ServiceAnnouncement>
+    <ServiceDiscoveryWakeupDuration>PT15M</ServiceDiscoveryWakeupDuration>
+    <USDFileSizeQuota>35840</USDFileSizeQuota>
+    <ConfigurationFileSizeQuota>8192</ConfigurationFileSizeQuota>
+    <RegistrationValidity>PT168H</RegistrationValidity>
+    <ServiceDiscoveryFileReceiveWaitTime>PT60S</ServiceDiscoveryFileReceiveWaitTime>
+    <r21:ServiceDiscoveryPerDevice DeviceClassID="String" WakeupDuration="PT15M"/>
+    <sv:delimiter>127</sv:delimiter>
+    <r24:MSDCUpgradeCheckInterval>PT0H</r24:MSDCUpgradeCheckInterval>
+    <r24:ServiceAnnouncementExtension/>
+  </ServiceAnnouncement>
+  <FileDownload>
+    <FileRepairThreshold>0.75</FileRepairThreshold>
+    <FullFileRepairEnable>false</FullFileRepairEnable>
+    <UnfinishedFileDownloadQuota>102400</UnfinishedFileDownloadQuota>
+    <AdvanceWakeupForFiles>PT2S</AdvanceWakeupForFiles>
+    <MultibandAdvanceWakeupForFiles>PT1S</MultibandAdvanceWakeupForFiles>
+    <MultibandRandomPeriod>10</MultibandRandomPeriod>
+    <FileRepairUriMaxLength>8190</FileRepairUriMaxLength>
+    <r24:FileDownloadExtension/>
+  </FileDownload>
+  <FLUTESession>
+    <BytesUntilFileDeliveryTableAvailable>128</BytesUntilFileDeliveryTableAvailable>
+    <NumberOfFileDeliveryTablesSaved>3</NumberOfFileDeliveryTablesSaved>
+    <r24:FLUTESessionExtension/>
+  </FLUTESession>
+  <ReceptionReporting>
+    <ReceptionReportingQuota>102400</ReceptionReportingQuota>
+    <r24:ReceptionReportingExtension/>
+  </ReceptionReporting>
+  <SignalToNoiseRatioMapping Level0="0" Level1="1.0" Level2="2.0" Level3="3.0" Level4="4.0"/>
+  <r24:MSDCConfigParamsExtension/>
+</MSDCConfigParams>

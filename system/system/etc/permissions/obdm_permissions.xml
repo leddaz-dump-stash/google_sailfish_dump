@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/******************************************************************************
+*  Copyright (C) 2013 WITS
+*  All Rights Reserved. WITS Proprietary and Confidential.
+*  *****************************************************************************
+*/
+-->
+<permissions>
+	<permission name="com.qualcomm.permission.QCOM_DIAG" >
+		<group gid="diag" />
+	</permission>
+	<permission name="com.qualcomm.permission.QCOM_RADIO" >
+		<group gid="radio" />
+	</permission>
+	<permission name="com.qualcomm.permission.QCOM_AUDIO" >
+		<group gid="audio" />
+	</permission>
+</permissions>
